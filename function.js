@@ -44,6 +44,8 @@ function renderNav() {
   });
 
   container.append(...cardElements);
+  app.appendChild(container);
+
   return container;
 }
 
@@ -54,4 +56,4 @@ function renderFooter() {
   return footer;
 }
 
-export { renderNav, renderContent, renderFooter }
+export default{ renderNav, renderContent, renderFooter }
