@@ -1,4 +1,4 @@
-
+//function.js
 
 function renderNav() {
   const nav = document.createElement("div");
@@ -56,4 +56,4 @@ function renderFooter() {
   return footer;
 }
 
-export default{ renderNav, renderContent, renderFooter }
+export { renderNav, renderContent, renderFooter };
