@@ -1,4 +1,4 @@
-
+//function.js
 
 function renderNav() {
   const nav = document.createElement("div");
@@ -44,6 +44,8 @@ function renderNav() {
   });
 
   container.append(...cardElements);
+  app.appendChild(container);
+
   return container;
 }
 
@@ -54,4 +56,4 @@ function renderFooter() {
   return footer;
 }
 
-export { renderNav, renderContent, renderFooter }
+export { renderNav, renderContent, renderFooter };

@@ -1,8 +1,5 @@
-
-
-import { renderNav, renderContent, renderFooter } from "./functions.js";
+import { renderNav, renderContent, renderFooter } from "./function.js";
 
 const app = document.getElementById("app");
 
-
-app.innerHTML = renderNav() + renderContent() + renderFooter();
+app.innerHTML = renderNav().outerHTML + renderContent().outerHTML + renderFooter().outerHTML;
